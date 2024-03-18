@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 250px;
+    height: 240px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+.card .cardInfo{
+    height: 190px;
+    width: 100%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.card .cardInfo:hover{
+    background-color: hsl(236, 40%, 25%);
+}
+
+.cardInfo .cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardHeader .cardType, .cardInfo .hours{
+    color: hsl(0, 0%, 100%);
+}
+
+.cardHeader img{
+    transition: 0.3s ease-in;
+}
+
+.cardHeader img:hover{
+    opacity: 75%;
+}
+
+.cardInfo .hours{
+    font-size: 46px;
+    margin-top: 40px;
+}
+
+.cardInfo .lastWeek{
+    font-size: 16px;
+    color: hsl(236, 100%, 87%);
+}

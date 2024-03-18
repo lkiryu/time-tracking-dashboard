@@ -10,10 +10,6 @@
     transition: ease-in 0.3s;
 }
 
-.time ul li.active{
-    color: hsl(0, 0%, 100%);
-}
-
-.time ul li:hover{
+.time ul li.active, .time ul li:hover{
     color: hsl(0, 0%, 100%);
 }

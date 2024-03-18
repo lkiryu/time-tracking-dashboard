@@ -1,3 +1,11 @@
+.timeList{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    margin-right: 20px;
+}
+
 .userInfo{
     background-color: hsl(246, 80%, 60%);
     border-radius: 20px;

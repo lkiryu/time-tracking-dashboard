@@ -17,7 +17,7 @@ const TimeTracker = () => {
                 <Card/>
                 <Card/>
                 <Card/>
-                <Card/>
+                <Card type='home' hours='12' lastweek='20'/>
                 <Card/>
                 <Card/>
             </div>
