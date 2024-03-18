@@ -1,4 +1,5 @@
 import React from "react";
+import './time.css'
 
 const Time = () => {
     return (

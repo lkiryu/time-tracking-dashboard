@@ -1,0 +1,19 @@
+.time ul{
+    padding: 20px 30px;
+    list-style: none;
+}
+
+.time ul li{
+    margin-bottom: 15px;
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.time ul li.active{
+    color: hsl(0, 0%, 100%);
+}
+
+.time ul li:hover{
+    color: hsl(0, 0%, 100%);
+}
