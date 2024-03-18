@@ -1,0 +1,25 @@
+.userInfo{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    padding: 40px 30px;
+    height: 350px;
+}
+
+.userInfo img{
+    width: 100px;
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.userInfo p{
+    color: hsl(236, 100%, 87%);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.userInfo .username{
+    color: hsl(0, 0%, 100%);
+    font-size: 36px;
+    font-weight: 300;
+}
