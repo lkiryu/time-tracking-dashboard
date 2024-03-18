@@ -1,6 +1,7 @@
 import React from "react";
 import UserInfo from "../userInfo/userInfo";
 import Time from "../time/time";
+import Card from "../card/card";
 
 import "./timeTracker.css"
 
@@ -12,7 +13,14 @@ const TimeTracker = () => {
                 <Time/>
             </div>
 
-            <div className="Cards"></div>
+            <div className="Cards">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
         </div>
     )
 }
