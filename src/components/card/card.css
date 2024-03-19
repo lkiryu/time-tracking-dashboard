@@ -4,8 +4,9 @@
     justify-content: center;
     width: 250px;
     height: 240px;
-    background-color: crimson;
     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
 }
 
 .card .cardInfo{
@@ -48,4 +49,61 @@
 .cardInfo .lastWeek{
     font-size: 16px;
     color: hsl(236, 100%, 87%);
+}
+
+.card.Work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(../../images/icon-work.svg);
+}
+
+.card.Play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(../../images/icon-play.svg);
+}
+
+.card.Study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(../../images/icon-study.svg);
+}
+
+.card.Exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(../../images/icon-exercise.svg);
+}
+
+.card.Social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(../../images/icon-social.svg);
+}
+
+.card.Self{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(../../images/icon-self-care.svg);
+}
+
+@media(max-width:1024px){
+    .card{
+        height: 200px;
+    }
+
+    .card .cardInfo{
+        height: 160px;
+        padding: 20px 30px;
+    }
+
+    .cardInfo .hours{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .card{
+        width: 200px;
+    }
+}
+
+@media(max-width:425px){
+    .card{
+        width: 240px;
+    }
 }

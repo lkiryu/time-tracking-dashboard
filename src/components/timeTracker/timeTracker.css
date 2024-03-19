@@ -14,3 +14,23 @@
     grid-template-rows: repeat(2, auto);
     gap: 20px;
 }
+
+@media(max-width:1024px){
+    .Cards{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media(max-width:425px){
+    .timeTracker{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .Cards{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, auto);
+        margin-bottom: 40px;
+    }
+}

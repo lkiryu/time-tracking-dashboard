@@ -6,7 +6,7 @@ const Time = () => {
         <div className="time">
             <ul>
                 <li>Daily</li>
-                <li>Weekly</li>
+                <li className="active">Weekly</li>
                 <li>Monthly</li>
             </ul>
         </div>

@@ -1,7 +1,7 @@
 .timeList{
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     height: 500px;
     margin-right: 20px;
 }
@@ -30,4 +30,17 @@
     color: hsl(0, 0%, 100%);
     font-size: 36px;
     font-weight: 300;
+}
+
+@media(max-width:768px){
+    .timeList{
+        width: 240px;
+    }
+}
+
+@media(max-width:425px){
+    .timeList{
+        margin: 40px 0 20px;
+        margin-right: 0;
+    }
 }

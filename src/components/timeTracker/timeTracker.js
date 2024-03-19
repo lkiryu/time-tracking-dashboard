@@ -14,12 +14,12 @@ const TimeTracker = () => {
             </div>
 
             <div className="Cards">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card type='home' hours='12' lastweek='20'/>
-                <Card/>
-                <Card/>
+                <Card type='Work' hours='32' previous='36'/>
+                <Card type='Play' hours='10' previous='8'/>
+                <Card type='Study' hours='4' previous='7'/>
+                <Card type='Exercise' hours='4' previous='5'/>
+                <Card type='Social' hours='5' previous='10'/>
+                <Card type='Self Care' hours='2' previous='2'/>
             </div>
         </div>
     )

@@ -5,14 +5,14 @@ import './card.css'
 
 const Card = (props) => {
     return (
-        <div className="card">
+        <div className={'card '+props.type}>
             <div className="cardInfo">
                 <div className="cardHeader">
                     <p className="cardType">{props.type}</p>
                     <img src={Ellipsis}/>
                 </div>
                 <p className="hours">{props.hours}hrs</p>
-                <p className="lastWeek">Last Week - {props.lastweek}hrs</p>
+                <p className="lastWeek">Last Week - {props.previous}hrs</p>
             </div>
         </div>
     )
